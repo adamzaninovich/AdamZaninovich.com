@@ -1,0 +1,17 @@
+.navbar.navbar-fixed-top
+  .navbar-inner
+    .container
+      %a.btn.btn-navbar{data:{toggle:'collapse', target:'.nav-collapse'}}
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.brand{:href => "/"} Adam Zaninovich
+      .nav-collapse
+        %ul.nav
+          %li.active= link_to 'About Me', root_path
+          %li= link_to 'Contact Me'
+        %ul.nav.pull-right
+          %li
+            = link_to do
+              Site Admin
+              %i.icon-lock.icon-white
