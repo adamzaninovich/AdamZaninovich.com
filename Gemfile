@@ -5,7 +5,6 @@ gem 'rails', '3.2.2'
 gem 'jquery-rails', '~> 2.0.1'
 gem 'haml-rails',   '~> 0.3.4'
 gem 'bcrypt-ruby',  '~> 3.0.0'
-
 gem 'twitter',      '~> 2.1.0'
 
 group :production do
@@ -23,6 +22,9 @@ group :development, :test do
   gem 'capybara'
   gem 'launchy'
   gem 'spork'
+  gem 'vcr'
+  gem 'webmock'
+  gem 'timecop'
   gem 'autotest',            require: false
   gem 'autotest-rails-pure', require: false
   gem 'autotest-fsevent',    require: false

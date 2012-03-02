@@ -1,0 +1,294 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitter.com/1/statuses/user_timeline.json?screen_name=thezanino
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - Twitter Ruby Gem 2.1.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 02 Mar 2012 23:48:31 GMT
+      Status:
+      - 200 OK
+      X-Transaction-Mask:
+      - a6183ffa5f8ca943ff1b53b5644ef114f2f60789
+      X-Mid:
+      - 12271c37a2027745df9dc71e8813d6cd30399027
+      X-Ratelimit-Remaining:
+      - '149'
+      X-Runtime:
+      - '0.50565'
+      Last-Modified:
+      - Fri, 02 Mar 2012 23:48:31 GMT
+      Etag:
+      - ! '"fe01af4ffdacfd43f593551c5cebfe84"'
+      X-Transaction:
+      - e39a6f488ec4221d
+      X-Revision:
+      - DEV
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      X-Ratelimit-Reset:
+      - '1330735711'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Ratelimit-Limit:
+      - '150'
+      Pragma:
+      - no-cache
+      X-Ratelimit-Class:
+      - api
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - _twitter_sess=BAh7CCIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCBWV0NU1AToHaWQiJTk5%250AMDU1MjMxN2QyOWIzZGU2ODljMWM3N2I2MDhlMjYw--e5bd5d2692b89b9650fb04fdf31487e1fd0fd92b;
+        domain=.twitter.com; path=/; HttpOnly
+      - guest_id=v1%3A133073211112286016; domain=.twitter.com; path=/; expires=Mon,
+        03-Mar-2014 11:48:31 GMT
+      - k=10.34.126.123.1330732111118517; path=/; expires=Fri, 09-Mar-12 23:48:31
+        GMT; domain=.twitter.com
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '3176'
+      Server:
+      - tfe
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+        q30K7cDaWhPOlrmxeG99ePNfopPKADqkAAA=
+    http_version: 
+  recorded_at: Fri, 02 Mar 2012 23:48:31 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1/statuses/user_timeline.json?screen_name=thezanino
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - Twitter Ruby Gem 2.1.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 02 Mar 2012 23:48:31 GMT
+      Status:
+      - 200 OK
+      X-Runtime:
+      - '0.03102'
+      X-Transaction:
+      - ca700c37ad6b17aa
+      Content-Type:
+      - application/json; charset=utf-8
+      Pragma:
+      - no-cache
+      X-Ratelimit-Reset:
+      - '1330735711'
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      X-Revision:
+      - DEV
+      Etag:
+      - ! '"fe01af4ffdacfd43f593551c5cebfe84"'
+      X-Transaction-Mask:
+      - a6183ffa5f8ca943ff1b53b5644ef114f2f60789
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      X-Ratelimit-Limit:
+      - '150'
+      X-Ratelimit-Remaining:
+      - '148'
+      X-Mid:
+      - ac2bc5c4a80247a02a9db1cf244f1ba2cf7e59d5
+      Last-Modified:
+      - Fri, 02 Mar 2012 23:48:31 GMT
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Ratelimit-Class:
+      - api
+      Set-Cookie:
+      - _twitter_sess=BAh7CCIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCPmX0NU1AToHaWQiJTNk%250AZDM1M2Q3ODhiMzU4NzYyNDg1N2UwMjA1NDExNzky--de8aa7c25206b2d3c6b17bb06ea036a7823587b0;
+        domain=.twitter.com; path=/; HttpOnly
+      - guest_id=v1%3A133073211186447717; domain=.twitter.com; path=/; expires=Mon,
+        03-Mar-2014 11:48:31 GMT
+      - k=10.34.126.123.1330732111861005; path=/; expires=Fri, 09-Mar-12 23:48:31
+        GMT; domain=.twitter.com
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Transfer-Encoding:
+      - chunked
+      Server:
+      - tfe
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+        k8oAOqQAAA==
+    http_version: 
+  recorded_at: Fri, 02 Mar 2012 23:48:31 GMT
+recorded_with: VCR 2.0.0
