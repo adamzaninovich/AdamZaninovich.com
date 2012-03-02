@@ -2,23 +2,17 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.2'
 
+gem 'jquery-rails', '~> 2.0.1'
+gem 'haml-rails',   '~> 0.3.4'
+gem 'bcrypt-ruby',  '~> 3.0.0'
+
 group :production do
-  gem 'pg'
+  gem 'pg', '0.13.2'
 end
 
-# Gems used only for assets and not required
-# in production environments by default.
-group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
-  gem 'uglifier', '>= 1.0.3'
-  gem 'twitter-bootstrap-rails'
+group :development do
+  gem 'heroku', require: false
 end
-
-gem 'jquery-rails'
-
-# To use ActiveModel has_secure_password
-gem 'bcrypt-ruby', '~> 3.0.0'
 
 group :development, :test do
   gem 'sqlite3'
@@ -31,4 +25,11 @@ group :development, :test do
   gem 'autotest-rails-pure', require: false
   gem 'autotest-fsevent',    require: false
   gem 'autotest-growl',      require: false
+end
+
+group :assets do
+  gem 'sass-rails',               '~> 3.2.3'
+  gem 'coffee-rails',             '~> 3.2.1'
+  gem 'uglifier',                 '>= 1.0.3'
+  gem 'twitter-bootstrap-rails',  '~> 2.0.3'
 end
